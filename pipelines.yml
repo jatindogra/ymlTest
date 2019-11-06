@@ -7,4 +7,4 @@ pipelines:
           onStart:
             - restore_pipeline_files pipeline_state_file pipeline_state.txt
           onExecute:
-            - "Good Buoy!!!"
+            - echo "Good Buoy!!!"
