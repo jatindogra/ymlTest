@@ -8,3 +8,4 @@ pipelines:
             - restore_pipeline_files pipeline_state_file pipeline_state.txt
           onExecute:
             - echo "Good Buoy!!!"
+            - node --version
