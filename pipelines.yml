@@ -4,10 +4,9 @@ pipelines:
       runtime:       
         type: image
         image:
-          auto:
-            language: "node"
-            versions:
-              - 8.16.0-b1763
+          custom:
+            name: "pipelines-docker.jfrog.io/jfrog/pipelines-u16node"
+            tag: "8.16.0-b1763"
     steps:
       - name: pipe_state
         type: Bash
