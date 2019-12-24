@@ -6,7 +6,8 @@ pipelines:
         image:
           auto:
             language: "nodejs"
-            versions: 8.16.0
+            versions:
+              - 8.16.0
     steps:
       - name: pipe_state
         type: Bash
