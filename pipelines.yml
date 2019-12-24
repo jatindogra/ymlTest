@@ -7,7 +7,7 @@ pipelines:
           auto:
             language: "node"
             versions:
-              - 8.16.0
+              - 8.16.0-b1763
     steps:
       - name: pipe_state
         type: Bash
