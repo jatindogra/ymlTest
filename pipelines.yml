@@ -15,5 +15,5 @@ pipelines:
             - restore_pipeline_files pipeline_state_file pipeline_state.txt
           onExecute:
             - sleep 10m
-            - echo "Good Buoy!!!"
+            - echo "Good Buoy!!"
             - node --version
